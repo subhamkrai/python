@@ -1,0 +1,240 @@
+ type(<name of the variable>)   : function in python
+#! is called she bang or hash bang
+datatypes : mutable and immutable
+mutable : list, dict,set
+immutable : int, float, str, tuple
+check addres ....id function
+e.g id (x)
+del function to delte variable
+e,g  del(x)
+input from user  : input() : doesn;t take strings
+                   raw_input() : converts everything into string
+                   convert string to int  y= int(x)
+scm(source code) & vcs(version control)
+slashlinuxcode
+
+
+is  a pattern in a string
+x = abcdef
+z= abcdefghijk
+x in z
+true   (if yes)
+
+
+make substring
+z.split()  ....z.split('<any character>')
+
+dir(str)...........>>>> :modulke namwe
+
+z.isdigit() ...> if there are any digitds in string
+
+z.replace('original','new')
+
+
+z[-1] = last element
+import time
+time.sleep(<sec>)
+
+
+
+tuple :
+tuple = struct+array
+can't change it's length
+operations are pretty much same
+y= (1000) : is not tuple : requirs at least teo values
+sorted(z) :>>>>> will give ascending order
+
+
+
+list ========>>   same as tuple except it is mutable
+x= [21,32,23,3.4]
+x.append('skkd')
+x.insert(<loca>,<value>)
+x.remove(<value>)
+x.pop(<loc>)
+
+
+Q1. z= (1,2,3)
+>>> z1= (2,3,4)
+add corresponding values
+
+
+Q2. remove duplicate values in a tuple 
+ANSWER: 
+x=(1,2,3,4,5,3)
+>>> tuple(set(x))
+(1, 2, 3, 4, 5)
+	
+
+
+
+
+
+Q3. twelve input 
+the number of values which got repeated should make a tuple
+reamining should make a list
+
+
+
+dictionary:
+dict()...
+x = {<key> : <value>}
+x[<key>] wil print the value
+inser new..>>> x[300]=5688
+
+
+
+conditional statement:
+if (statement)
+statement: can be anything---> condition/expression/individuals
+
+
+python: REPL----> read--> evaluate--> print--> loop
+       deadcoderemoval : firefly
+None is false i python
+"" is false
+immutable insear' gibbrish'
+
+
+
+multi line commment .-----> """ or '''
+
+
+Q.2  press 3--> what you want to serach--> output.... open browser and serach automatically the user input
+press 4 --> print all i.p and  mac of all connected devices
+press 5 ---> play movieS inside /root/Videos
+press 6----> print all website name currently opened in your browser
+
+
+loops/iteration :
+for(statement;condition;statemnet)--------->> for is iteration
+
+
+
+input as no of data/line/,,,,,, residing in a file)
+ x = (1,2,3,4)
+for i in x:
+  print 'x'
+
+
+
+{
+for in i
+}
+
+
+
+import sys
+x = sys.argv[1:] -------->>>>> takes only string input(to use provide elments wi                                                      th command linee argument)
+  
+
+for i in x:
+	print 'asdasd'
+
+Q.1 Using for loop send same message to a no. of users(saved in a file)
+ hint: enable gmail feature for this
+tip:disable two-step verification
+
+
+
+================================================================================================================
+FUNCTION:
+         we can't fix first argument
+       sum(*x)
+       *x is a tuple in parameters
+       
+
+
+Q.1 what does it mean= **x?
+
+Dict
+
+
+==========================================================================================================
+SOCKET PROGRAMMING 
+===========================================================================================================
+
+
+socket = i.p +port (roughly)
+tcp and udp:
+tcp ---> flag: syn
+
+
+vim /usr/bin/<filename>
+
+
+
+send                                        receive
+ socket                                          socket
+send to--------------------------------------->bind
+|
+|
+recvfrom
+
+
+===================================================ipaddress===================================================
+1st   1 to 223
+2nd   0 to 254
+3rd   0 to 254
+4th   0 to 254
+
+127.anything....... is your home address
+anything<= 3bytes(2 raise to the poower 24)
+
+ifconfig lo <any website or any number less than 4 byte>
+
+192.168.10.103  ---> 
+<firstnumber>*2's power 24
++<secondnumber>*2's power 16
++<third number>*2's power 8 
++third number
+ip = 255.255.255.255 is used for broadcasting in internal network
+
+x,y= commmands.getstatusoutput("date")
+x = 0
+y = 15 dec,.....
+
+
+Q.1 pipe and live output and gui commands don't run .....find a way to run?
+Q.2prompt to login and password and send confirmation and then server asks for entering command: then we type command at client side.
+
+Done!
+remoteserver105.py
+remoteclient105.py
+
+
+
+
+
+=================================================================
+MODULES/LIBRARIES
+=================================================================
+
+
+os modules to execute operation like mkdir,rmdir...etc
+independent of os' mkdir or rmdir.
+
+from os import mkdir,rmdir
+now don't have to write like==== os.mkdir()
+just do mkdir()
+
+from os import system as giroo
+now use giroo in place of system
+giroo('date')
+
+OR
+
+import os as giroo
+
+giroo.system('uptime')
+however x =giroo.system('date')
+print x will give only status code
+
+
+import urllib2----> useful
+webdata=urllib2.urlopen("http://google.com")
+webdata.read()
+dir(x)
+extract words in any specific tag
+
+
